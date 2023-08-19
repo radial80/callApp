@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48BE95E92A8C295100F3EB6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE95E82A8C295100F3EB6C /* AppDelegate.swift */; };
+		48BE95EB2A8C295100F3EB6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE95EA2A8C295100F3EB6C /* SceneDelegate.swift */; };
+		48BE95ED2A8C295100F3EB6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE95EC2A8C295100F3EB6C /* ViewController.swift */; };
+		48BE95F02A8C295100F3EB6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BE95EE2A8C295100F3EB6C /* Main.storyboard */; };
+		48BE95F22A8C295300F3EB6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BE95F12A8C295300F3EB6C /* Assets.xcassets */; };
+		48BE95F52A8C295300F3EB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BE95F32A8C295300F3EB6C /* LaunchScreen.storyboard */; };
+		48BE95FF2A8C313500F3EB6C /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE95FE2A8C313500F3EB6C /* AIAEC */; };
+		48BE96012A8C313500F3EB6C /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE96002A8C313500F3EB6C /* AINS */; };
+		48BE96032A8C313500F3EB6C /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE96022A8C313500F3EB6C /* AudioBeauty */; };
+		48BE96052A8C313500F3EB6C /* DRM in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE96042A8C313500F3EB6C /* DRM */; };
+		48BE96072A8C313500F3EB6C /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE96062A8C313500F3EB6C /* RtcBasic */; };
+		48BE96092A8C313500F3EB6C /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE96082A8C313500F3EB6C /* SpatialAudio */; };
+		CD7E0987B5D0170DA8FE76CD /* Pods_CallAppAgora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AA4CC9CB24E53BAB9D370B /* Pods_CallAppAgora.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		348E5798106635776C9AFA8C /* Pods-CallAppAgora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallAppAgora.release.xcconfig"; path = "Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora.release.xcconfig"; sourceTree = "<group>"; };
+		48BE95E52A8C295100F3EB6C /* CallAppAgora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallAppAgora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BE95E82A8C295100F3EB6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48BE95EA2A8C295100F3EB6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48BE95EC2A8C295100F3EB6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48BE95EF2A8C295100F3EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48BE95F12A8C295300F3EB6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48BE95F42A8C295300F3EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48BE95F62A8C295300F3EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9B1A591A93CD6D4A01EAEA /* Pods-CallAppAgora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallAppAgora.debug.xcconfig"; path = "Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora.debug.xcconfig"; sourceTree = "<group>"; };
+		F2AA4CC9CB24E53BAB9D370B /* Pods_CallAppAgora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallAppAgora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48BE95E22A8C295100F3EB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BE96092A8C313500F3EB6C /* SpatialAudio in Frameworks */,
+				48BE96032A8C313500F3EB6C /* AudioBeauty in Frameworks */,
+				48BE95FF2A8C313500F3EB6C /* AIAEC in Frameworks */,
+				48BE96052A8C313500F3EB6C /* DRM in Frameworks */,
+				48BE96012A8C313500F3EB6C /* AINS in Frameworks */,
+				48BE96072A8C313500F3EB6C /* RtcBasic in Frameworks */,
+				CD7E0987B5D0170DA8FE76CD /* Pods_CallAppAgora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48BE95DC2A8C295100F3EB6C = {
+			isa = PBXGroup;
+			children = (
+				48BE95E72A8C295100F3EB6C /* CallAppAgora */,
+				48BE95E62A8C295100F3EB6C /* Products */,
+				9485DD1D8E5698116AA09258 /* Pods */,
+				DDDE0E8836376C2E174C57F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48BE95E62A8C295100F3EB6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48BE95E52A8C295100F3EB6C /* CallAppAgora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48BE95E72A8C295100F3EB6C /* CallAppAgora */ = {
+			isa = PBXGroup;
+			children = (
+				48BE95E82A8C295100F3EB6C /* AppDelegate.swift */,
+				48BE95EA2A8C295100F3EB6C /* SceneDelegate.swift */,
+				48BE95EC2A8C295100F3EB6C /* ViewController.swift */,
+				48BE95EE2A8C295100F3EB6C /* Main.storyboard */,
+				48BE95F12A8C295300F3EB6C /* Assets.xcassets */,
+				48BE95F32A8C295300F3EB6C /* LaunchScreen.storyboard */,
+				48BE95F62A8C295300F3EB6C /* Info.plist */,
+			);
+			path = CallAppAgora;
+			sourceTree = "<group>";
+		};
+		9485DD1D8E5698116AA09258 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E9B1A591A93CD6D4A01EAEA /* Pods-CallAppAgora.debug.xcconfig */,
+				348E5798106635776C9AFA8C /* Pods-CallAppAgora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDDE0E8836376C2E174C57F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA4CC9CB24E53BAB9D370B /* Pods_CallAppAgora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48BE95E42A8C295100F3EB6C /* CallAppAgora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BE95F92A8C295300F3EB6C /* Build configuration list for PBXNativeTarget "CallAppAgora" */;
+			buildPhases = (
+				EDDC4C1AB8D65DFA44F36189 /* [CP] Check Pods Manifest.lock */,
+				48BE95E12A8C295100F3EB6C /* Sources */,
+				48BE95E22A8C295100F3EB6C /* Frameworks */,
+				48BE95E32A8C295100F3EB6C /* Resources */,
+				8E7847A00D684E02139B46DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallAppAgora;
+			packageProductDependencies = (
+				48BE95FE2A8C313500F3EB6C /* AIAEC */,
+				48BE96002A8C313500F3EB6C /* AINS */,
+				48BE96022A8C313500F3EB6C /* AudioBeauty */,
+				48BE96042A8C313500F3EB6C /* DRM */,
+				48BE96062A8C313500F3EB6C /* RtcBasic */,
+				48BE96082A8C313500F3EB6C /* SpatialAudio */,
+			);
+			productName = CallAppAgora;
+			productReference = 48BE95E52A8C295100F3EB6C /* CallAppAgora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48BE95DD2A8C295100F3EB6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					48BE95E42A8C295100F3EB6C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 48BE95E02A8C295100F3EB6C /* Build configuration list for PBXProject "CallAppAgora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48BE95DC2A8C295100F3EB6C;
+			packageReferences = (
+				48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */,
+			);
+			productRefGroup = 48BE95E62A8C295100F3EB6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48BE95E42A8C295100F3EB6C /* CallAppAgora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48BE95E32A8C295100F3EB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BE95F52A8C295300F3EB6C /* LaunchScreen.storyboard in Resources */,
+				48BE95F22A8C295300F3EB6C /* Assets.xcassets in Resources */,
+				48BE95F02A8C295100F3EB6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E7847A00D684E02139B46DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDC4C1AB8D65DFA44F36189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CallAppAgora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48BE95E12A8C295100F3EB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BE95ED2A8C295100F3EB6C /* ViewController.swift in Sources */,
+				48BE95E92A8C295100F3EB6C /* AppDelegate.swift in Sources */,
+				48BE95EB2A8C295100F3EB6C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48BE95EE2A8C295100F3EB6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BE95EF2A8C295100F3EB6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48BE95F32A8C295300F3EB6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BE95F42A8C295300F3EB6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48BE95F72A8C295300F3EB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48BE95F82A8C295300F3EB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48BE95FA2A8C295300F3EB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9B1A591A93CD6D4A01EAEA /* Pods-CallAppAgora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallAppAgora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recep.xoproject.CallAppAgora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48BE95FB2A8C295300F3EB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348E5798106635776C9AFA8C /* Pods-CallAppAgora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallAppAgora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recep.xoproject.CallAppAgora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48BE95E02A8C295100F3EB6C /* Build configuration list for PBXProject "CallAppAgora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BE95F72A8C295300F3EB6C /* Debug */,
+				48BE95F82A8C295300F3EB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BE95F92A8C295300F3EB6C /* Build configuration list for PBXNativeTarget "CallAppAgora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BE95FA2A8C295300F3EB6C /* Debug */,
+				48BE95FB2A8C295300F3EB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraAudio_iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48BE95FE2A8C313500F3EB6C /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = AIAEC;
+		};
+		48BE96002A8C313500F3EB6C /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = AINS;
+		};
+		48BE96022A8C313500F3EB6C /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = AudioBeauty;
+		};
+		48BE96042A8C313500F3EB6C /* DRM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = DRM;
+		};
+		48BE96062A8C313500F3EB6C /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = RtcBasic;
+		};
+		48BE96082A8C313500F3EB6C /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE95FD2A8C313500F3EB6C /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = SpatialAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 48BE95DD2A8C295100F3EB6C /* Project object */;
+}

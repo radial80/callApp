@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Koala-iOS/Koala.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Koala-iOS/PvKoala.framework/PvKoala

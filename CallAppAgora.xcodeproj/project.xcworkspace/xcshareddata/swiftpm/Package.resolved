@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "agoraaudio_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraAudio_iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "62ea5dda567e6c394a4a14c40c4738d5604924b8"
+      }
+    }
+  ],
+  "version" : 2
+}

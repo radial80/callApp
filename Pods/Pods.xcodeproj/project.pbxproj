@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D6826505D04D25823A5475012AE004 /* KoalaErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1068067708C00272CD5C2F8D530651 /* KoalaErrors.swift */; };
+		4950C7665601E979FE2D30AF6EDACCE1 /* Koala.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228353A23010660044F78D25E685339 /* Koala.swift */; };
+		5F096A61F432238A503935DC2C595360 /* koala_params.pv in Resources */ = {isa = PBXBuildFile; fileRef = 1391338E20691F9D1C22277DB7F21E43 /* koala_params.pv */; };
+		60F2D7B26266FC272589F0301CD2B117 /* Pods-CallAppAgora-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A8DAF47CEC8AE8914071EC022F3B7A /* Pods-CallAppAgora-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E9CBE996C1E76973C0BA546962259E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6FDA4933559F970F7B966EA3E2FC17CC /* Koala-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F02F3478CC2F10B576A9DAD716861F3 /* Koala-iOS-dummy.m */; };
+		B82F4B31137528DEF04DD6EF3B847A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C59BFA1926CF9C980712BDB34F7BD589 /* Pods-CallAppAgora-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C34473555A4B41EE3009691D33DD0 /* Pods-CallAppAgora-dummy.m */; };
+		D2A446BE3492DFBCB4936980FBC225CE /* KoalaResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B22D2DF2CB43CC18A64103F960D40737 /* KoalaResources.bundle */; };
+		FCF3109CB27B0DB5ACE5B9903D82BB12 /* Koala-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB68D308E914B3956ED7633A8CFDC52C /* Koala-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BA5DC4A2DD620C70080E9F046E4354E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB1671C0A94702BC860F6108E1011DD;
+			remoteInfo = "Koala-iOS";
+		};
+		A16A5AE5546FF47BAAB4210897399398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9977F7C85E9BDBD0B9C1CA5DB6A6ECD0;
+			remoteInfo = "Koala-iOS-KoalaResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036DFAA18A6CD493215C60DC8B7F657D /* Pods-CallAppAgora-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallAppAgora-Info.plist"; sourceTree = "<group>"; };
+		078C34473555A4B41EE3009691D33DD0 /* Pods-CallAppAgora-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CallAppAgora-dummy.m"; sourceTree = "<group>"; };
+		0BA0B1AC3BDA9084BA507BDF610DBC39 /* PvKoala.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = PvKoala.xcframework; path = lib/ios/PvKoala.xcframework; sourceTree = "<group>"; };
+		1391338E20691F9D1C22277DB7F21E43 /* koala_params.pv */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = koala_params.pv; path = lib/common/koala_params.pv; sourceTree = "<group>"; };
+		16CD366246CF203A189C3271D5991F7A /* Koala-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Koala-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2B7E5BD192BC6432A11F7EF6FCDD3657 /* Pods-CallAppAgora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CallAppAgora.debug.xcconfig"; sourceTree = "<group>"; };
+		5374E9EA7A9CAEDB1713B371DEA99C8B /* Koala-iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Koala-iOS-xcframeworks.sh"; sourceTree = "<group>"; };
+		5C89C8E189838B93B71D43F123F9450D /* Koala-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Koala-iOS.modulemap"; sourceTree = "<group>"; };
+		5F02F3478CC2F10B576A9DAD716861F3 /* Koala-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Koala-iOS-dummy.m"; sourceTree = "<group>"; };
+		676B8FDFEAF5CB731CB2304B7EAE8D1A /* Pods-CallAppAgora-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CallAppAgora-frameworks.sh"; sourceTree = "<group>"; };
+		71D4431B2D1DAC8BBFB97821419AAAA5 /* Koala-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Koala-iOS"; path = Koala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7228353A23010660044F78D25E685339 /* Koala.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Koala.swift; path = binding/ios/Koala.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83385F2EACB0676A547BC13865BF6B2C /* Koala-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koala-iOS-prefix.pch"; sourceTree = "<group>"; };
+		8D4CB855082431BD14B71BF1E52818C0 /* Pods-CallAppAgora */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CallAppAgora"; path = Pods_CallAppAgora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FDF85C86F075EDD68848A152C99B0A /* ResourceBundle-KoalaResources-Koala-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KoalaResources-Koala-iOS-Info.plist"; sourceTree = "<group>"; };
+		9AB1A9E8CC64137F4B8A61A270EDBC3C /* Pods-CallAppAgora-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CallAppAgora-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC497D99A6B70F848430EFD9DDB53917 /* Pods-CallAppAgora.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CallAppAgora.modulemap"; sourceTree = "<group>"; };
+		B22D2DF2CB43CC18A64103F960D40737 /* KoalaResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B322A19A2188F1BA5B755C85C554315E /* Koala-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Koala-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B3A8DAF47CEC8AE8914071EC022F3B7A /* Pods-CallAppAgora-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CallAppAgora-umbrella.h"; sourceTree = "<group>"; };
+		BC1068067708C00272CD5C2F8D530651 /* KoalaErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KoalaErrors.swift; path = binding/ios/KoalaErrors.swift; sourceTree = "<group>"; };
+		BEEA7CFCA87FA514B6C62C29C19EDB30 /* Pods-CallAppAgora-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallAppAgora-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB68D308E914B3956ED7633A8CFDC52C /* Koala-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koala-iOS-umbrella.h"; sourceTree = "<group>"; };
+		F5C7EDAD6C813FDC1040593B212E3213 /* Koala-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Koala-iOS-Info.plist"; sourceTree = "<group>"; };
+		FA91C796B135D784A3125B8C6CA59456 /* Pods-CallAppAgora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CallAppAgora.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411879EDDEA3044EF9B651AC5C5C5C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82F4B31137528DEF04DD6EF3B847A5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788310A9951BCD914ED53FA635E518E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E9CBE996C1E76973C0BA546962259E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDE9D99E796AD7C22F30D98BB052BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46892B5FFB7B31D4CF44AE72AD13ED8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				950EE54FCCF77C7CBFA2C9268354430E /* Koala-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DF93C4F087597152DF97FB1D08AB6DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFADC46808DE0A25119EB78DF814415F /* Pods-CallAppAgora */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		950EE54FCCF77C7CBFA2C9268354430E /* Koala-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7228353A23010660044F78D25E685339 /* Koala.swift */,
+				BC1068067708C00272CD5C2F8D530651 /* KoalaErrors.swift */,
+				D9744762E0E09BDD70546E2EE781A684 /* Frameworks */,
+				A48AA225466D50101B0116553BC8B65B /* Resources */,
+				E5110A3AFBF5C803250747E400A5669A /* Support Files */,
+			);
+			path = "Koala-iOS";
+			sourceTree = "<group>";
+		};
+		A48AA225466D50101B0116553BC8B65B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1391338E20691F9D1C22277DB7F21E43 /* koala_params.pv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6CCD9EFE3713D78FC48BF6BDF263D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D4431B2D1DAC8BBFB97821419AAAA5 /* Koala-iOS */,
+				B22D2DF2CB43CC18A64103F960D40737 /* KoalaResources.bundle */,
+				8D4CB855082431BD14B71BF1E52818C0 /* Pods-CallAppAgora */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46892B5FFB7B31D4CF44AE72AD13ED8E /* Pods */,
+				C6CCD9EFE3713D78FC48BF6BDF263D0D /* Products */,
+				5DF93C4F087597152DF97FB1D08AB6DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFADC46808DE0A25119EB78DF814415F /* Pods-CallAppAgora */ = {
+			isa = PBXGroup;
+			children = (
+				AC497D99A6B70F848430EFD9DDB53917 /* Pods-CallAppAgora.modulemap */,
+				9AB1A9E8CC64137F4B8A61A270EDBC3C /* Pods-CallAppAgora-acknowledgements.markdown */,
+				BEEA7CFCA87FA514B6C62C29C19EDB30 /* Pods-CallAppAgora-acknowledgements.plist */,
+				078C34473555A4B41EE3009691D33DD0 /* Pods-CallAppAgora-dummy.m */,
+				676B8FDFEAF5CB731CB2304B7EAE8D1A /* Pods-CallAppAgora-frameworks.sh */,
+				036DFAA18A6CD493215C60DC8B7F657D /* Pods-CallAppAgora-Info.plist */,
+				B3A8DAF47CEC8AE8914071EC022F3B7A /* Pods-CallAppAgora-umbrella.h */,
+				2B7E5BD192BC6432A11F7EF6FCDD3657 /* Pods-CallAppAgora.debug.xcconfig */,
+				FA91C796B135D784A3125B8C6CA59456 /* Pods-CallAppAgora.release.xcconfig */,
+			);
+			name = "Pods-CallAppAgora";
+			path = "Target Support Files/Pods-CallAppAgora";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9744762E0E09BDD70546E2EE781A684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA0B1AC3BDA9084BA507BDF610DBC39 /* PvKoala.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5110A3AFBF5C803250747E400A5669A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C89C8E189838B93B71D43F123F9450D /* Koala-iOS.modulemap */,
+				5F02F3478CC2F10B576A9DAD716861F3 /* Koala-iOS-dummy.m */,
+				F5C7EDAD6C813FDC1040593B212E3213 /* Koala-iOS-Info.plist */,
+				83385F2EACB0676A547BC13865BF6B2C /* Koala-iOS-prefix.pch */,
+				EB68D308E914B3956ED7633A8CFDC52C /* Koala-iOS-umbrella.h */,
+				5374E9EA7A9CAEDB1713B371DEA99C8B /* Koala-iOS-xcframeworks.sh */,
+				B322A19A2188F1BA5B755C85C554315E /* Koala-iOS.debug.xcconfig */,
+				16CD366246CF203A189C3271D5991F7A /* Koala-iOS.release.xcconfig */,
+				96FDF85C86F075EDD68848A152C99B0A /* ResourceBundle-KoalaResources-Koala-iOS-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Koala-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3115C87607A662D92D756D719F68A59D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F2D7B26266FC272589F0301CD2B117 /* Pods-CallAppAgora-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4DE8905C25793070AB5820957B8EAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF3109CB27B0DB5ACE5B9903D82BB12 /* Koala-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CB1671C0A94702BC860F6108E1011DD /* Koala-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32E1582C948A921FF650E4D71EAEE9B /* Build configuration list for PBXNativeTarget "Koala-iOS" */;
+			buildPhases = (
+				3F4DE8905C25793070AB5820957B8EAC /* Headers */,
+				2AB0FED3439300AF73319BFCDA7883DE /* [CP] Copy XCFrameworks */,
+				5978BA8222A13A88EBE3DB475AE6BF73 /* Sources */,
+				788310A9951BCD914ED53FA635E518E8 /* Frameworks */,
+				F1E7905667265A834A924C185C81DC7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A37D14B93CE982AE689D48ED244AE95 /* PBXTargetDependency */,
+			);
+			name = "Koala-iOS";
+			productName = Koala;
+			productReference = 71D4431B2D1DAC8BBFB97821419AAAA5 /* Koala-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		5700FBDE901812506867A947DC029307 /* Pods-CallAppAgora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39950FE6B530A083BFDDDD7B712B7204 /* Build configuration list for PBXNativeTarget "Pods-CallAppAgora" */;
+			buildPhases = (
+				3115C87607A662D92D756D719F68A59D /* Headers */,
+				EA310277DF27A50501C78CB8E40DDC4F /* Sources */,
+				411879EDDEA3044EF9B651AC5C5C5C88 /* Frameworks */,
+				1F207D5E3776AFDFAE0FEEFB3C01BEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAED1AFDE1DDF4414524B03688CC775 /* PBXTargetDependency */,
+			);
+			name = "Pods-CallAppAgora";
+			productName = Pods_CallAppAgora;
+			productReference = 8D4CB855082431BD14B71BF1E52818C0 /* Pods-CallAppAgora */;
+			productType = "com.apple.product-type.framework";
+		};
+		9977F7C85E9BDBD0B9C1CA5DB6A6ECD0 /* Koala-iOS-KoalaResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF5DD04A3F7FF65E90811ADB02429B7 /* Build configuration list for PBXNativeTarget "Koala-iOS-KoalaResources" */;
+			buildPhases = (
+				FFF1FFC2685BD94EB66C7C60460BEB80 /* Sources */,
+				FCBDE9D99E796AD7C22F30D98BB052BD /* Frameworks */,
+				AEA9C361AF1A9500CEB9B2666A5256BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Koala-iOS-KoalaResources";
+			productName = KoalaResources;
+			productReference = B22D2DF2CB43CC18A64103F960D40737 /* KoalaResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C6CCD9EFE3713D78FC48BF6BDF263D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CB1671C0A94702BC860F6108E1011DD /* Koala-iOS */,
+				9977F7C85E9BDBD0B9C1CA5DB6A6ECD0 /* Koala-iOS-KoalaResources */,
+				5700FBDE901812506867A947DC029307 /* Pods-CallAppAgora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F207D5E3776AFDFAE0FEEFB3C01BEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA9C361AF1A9500CEB9B2666A5256BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F096A61F432238A503935DC2C595360 /* koala_params.pv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E7905667265A834A924C185C81DC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A446BE3492DFBCB4936980FBC225CE /* KoalaResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB0FED3439300AF73319BFCDA7883DE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Koala-iOS/Koala-iOS-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Koala-iOS/Koala-iOS-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Koala-iOS/Koala-iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5978BA8222A13A88EBE3DB475AE6BF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4950C7665601E979FE2D30AF6EDACCE1 /* Koala.swift in Sources */,
+				6FDA4933559F970F7B966EA3E2FC17CC /* Koala-iOS-dummy.m in Sources */,
+				39D6826505D04D25823A5475012AE004 /* KoalaErrors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA310277DF27A50501C78CB8E40DDC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59BFA1926CF9C980712BDB34F7BD589 /* Pods-CallAppAgora-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1FFC2685BD94EB66C7C60460BEB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A37D14B93CE982AE689D48ED244AE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Koala-iOS-KoalaResources";
+			target = 9977F7C85E9BDBD0B9C1CA5DB6A6ECD0 /* Koala-iOS-KoalaResources */;
+			targetProxy = A16A5AE5546FF47BAAB4210897399398 /* PBXContainerItemProxy */;
+		};
+		FDAED1AFDE1DDF4414524B03688CC775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Koala-iOS";
+			target = 1CB1671C0A94702BC860F6108E1011DD /* Koala-iOS */;
+			targetProxy = 1BA5DC4A2DD620C70080E9F046E4354E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		180FAACCA289091F9B8A6482AC9D0986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B322A19A2188F1BA5B755C85C554315E /* Koala-iOS.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Koala-iOS";
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Koala;
+				INFOPLIST_FILE = "Target Support Files/Koala-iOS/ResourceBundle-KoalaResources-Koala-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = KoalaResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		214288CAAEB73A00C066AC8FDEB86719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7E5BD192BC6432A11F7EF6FCDD3657 /* Pods-CallAppAgora.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53FE6B0274051C36372FA864E627690A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA91C796B135D784A3125B8C6CA59456 /* Pods-CallAppAgora.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CallAppAgora/Pods-CallAppAgora.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DB7E4FBDC6CE3E03F687C8A9965EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CD366246CF203A189C3271D5991F7A /* Koala-iOS.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Koala-iOS";
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Koala;
+				INFOPLIST_FILE = "Target Support Files/Koala-iOS/ResourceBundle-KoalaResources-Koala-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = KoalaResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81C95BC26AC44602E0BABC65DB25DF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B322A19A2188F1BA5B755C85C554315E /* Koala-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Koala-iOS/Koala-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Koala-iOS/Koala-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Koala-iOS/Koala-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Koala;
+				PRODUCT_NAME = Koala;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B428B8C9ECE0AF57E0617305DAC71D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CD366246CF203A189C3271D5991F7A /* Koala-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Koala-iOS/Koala-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Koala-iOS/Koala-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Koala-iOS/Koala-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Koala;
+				PRODUCT_NAME = Koala;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39950FE6B530A083BFDDDD7B712B7204 /* Build configuration list for PBXNativeTarget "Pods-CallAppAgora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214288CAAEB73A00C066AC8FDEB86719 /* Debug */,
+				53FE6B0274051C36372FA864E627690A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF5DD04A3F7FF65E90811ADB02429B7 /* Build configuration list for PBXNativeTarget "Koala-iOS-KoalaResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FAACCA289091F9B8A6482AC9D0986 /* Debug */,
+				5DB7E4FBDC6CE3E03F687C8A9965EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32E1582C948A921FF650E4D71EAEE9B /* Build configuration list for PBXNativeTarget "Koala-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C95BC26AC44602E0BABC65DB25DF3F /* Debug */,
+				B428B8C9ECE0AF57E0617305DAC71D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
